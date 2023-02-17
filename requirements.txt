@@ -30,7 +30,7 @@ opencv-python
 onnx-simplifier  # ONNX simplifier
 # scikit-learn==0.19.2  # CoreML quantization
 tensorflow==2.5  # TFLite export
-tensorflow-probability
+tensorflow-probability==0.13 # for TensorFlow
 onnx-tf
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev  # OpenVINO export
