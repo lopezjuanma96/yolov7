@@ -23,14 +23,14 @@ seaborn>=0.11.0
 
 # Export --------------------------------------
 # coremltools>=4.1  # CoreML export
-onnx  # ONNX export
+onnx==1.10.2  # ONNX export (1.10.2 for onnx-tf)
 onnxruntime 
 onnxsim 
 opencv-python
 onnx-simplifier  # ONNX simplifier
 # scikit-learn==0.19.2  # CoreML quantization
-tensorflow==2.5  # TFLite export
-tensorflow-probability==0.13 # for TensorFlow
+tensorflow  # TFLite export
+tensorflow-probability # for TensorFlow
 onnx-tf
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev  # OpenVINO export
