@@ -26,10 +26,9 @@ seaborn>=0.11.0
 onnx==1.10.2  # ONNX export (1.10.2 for onnx-tf)
 onnxruntime 
 onnxsim 
-opencv-python
 onnx-simplifier  # ONNX simplifier
 # scikit-learn==0.19.2  # CoreML quantization
-tensorflow  # TFLite export
+tensorflow==2.11.0 # TFLite export
 tensorflow-probability # for TensorFlow
 onnx-tf
 # tensorflowjs>=3.9.0  # TF.js export
