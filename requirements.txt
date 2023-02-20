@@ -28,8 +28,8 @@ onnxruntime
 onnxsim 
 onnx-simplifier  # ONNX simplifier
 # scikit-learn==0.19.2  # CoreML quantization
-tensorflow-cpu==2.4.1
-tensorflow-addons==0.12.0
+tensorflow-cpu==2.5.0
+tensorflow-addons==0.13.0
 tensorflow-probability # for TensorFlow
 onnx-tf==1.8.0
 # tensorflowjs>=3.9.0  # TF.js export
